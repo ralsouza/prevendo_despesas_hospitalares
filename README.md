@@ -1,4 +1,4 @@
-# Forecast of Hospital Expenses 
+# Predicting Hospital Expenses 
 ![GitHub](https://img.shields.io/github/license/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)<br/>
