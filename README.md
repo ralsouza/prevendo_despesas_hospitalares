@@ -12,6 +12,3 @@ This small project was dedicated to making hospital expenditure forecasts. The i
   **4.** Evaluate and interpret the model;<br/>
   **5.** Perform optimization;<br/>
   **6.** Document the final result.
-  
-  
-
