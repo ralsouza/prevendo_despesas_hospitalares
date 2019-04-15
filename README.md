@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)<br/>
 <br/>
-This small project was dedicated to making hospital expenditure forecasts through regression. The idea is to deliver a basic Machine Learning project from start to finish, in the help file contains the goals to be achieved and the project was coded in R.
+This small project was dedicated to making predictions of hospital expenses through regression. The idea is to deliver a basic Machine Learning project from start to finish, in the help file contains the goals to be achieved and the project was coded in R.
 
 # Project objectives:
   **1.** Define business problem;<br/>
