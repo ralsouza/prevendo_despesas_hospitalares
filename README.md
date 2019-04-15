@@ -1,4 +1,8 @@
-# Forecast of Hospital Expenses
+# Forecast of Hospital Expenses 
+![GitHub](https://img.shields.io/github/license/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/ralsouza/forecast_of_hospital_expenses.svg?style=flat-square)<br/>
+<br/>
 This small project was dedicated to making hospital expenditure forecasts. The idea is to deliver a basic Machine Learning project from start to finish, in the help file contains the goals to be achieved and the project was coded in R.
 
 # Project objectives:
@@ -8,3 +12,6 @@ This small project was dedicated to making hospital expenditure forecasts. The i
   **4.** Evaluate and interpret the model;<br/>
   **5.** Perform optimization;<br/>
   **6.** Document the final result.
+  
+  
+
