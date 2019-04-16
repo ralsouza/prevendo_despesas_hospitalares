@@ -27,3 +27,56 @@ summary(despesas$gastos)
 # Em torno de 35.000 temos um pequeno aumento nos gastos que reduzem novamente até 60.000 
 hist(despesas$gastos, main = 'Histograma', xlab = 'Gastos')
 
+### Tabela de Contingência de Regiões - A Coluna regiao é do tipo fator
+table(despesas$regiao)
+
+### Checar o Relacionamento entre as Variáveis Numéricas: Matriz de Correlação
+# Rodar o resumo dos dados para saber quais são numéricas
+str(despesas)
+
+# Matriz de Correlação
+# O Coeficiente de Correlação é um número que vai de -1 até 1 e o 0 indica que não existe correlação.
+# +1 indica uma forte correlação positiva
+# -1 indica uma forte correlação negativa
+# Nota-se que existe uma diagonal de 1.0, que indica uma forte correlação das variáveis com elas mesmas,
+# o que neste momento é uma irrelevante. 
+# Exemplificando, a correlação entre bmi x idade está um pouco acima do zero, logo podemos indicar algumas interpretações
+
+cor(despesas[c('idade','bmi','filhos','gastos')])
+
+# Análise sobre a Correlação
+# Nenhuma das correlações na matriz é considerada forte, mas existem algumas associações interessantes. 
+# Por exemplo, a idade e o bmi (IMC) parecem ter uma correlação positiva fraca, o que significa que 
+# com o aumento da idade, a massa corporal tende a aumentar. Há também uma correlação positiva 
+# moderada entre a idade e os gastos, além do número de filhos e os gastos. Estas associações implicam 
+# que, à media que idade, massa corporal e número de filhos aumenta, o custo esperado do seguro saúde sobe. 
+
+# Visualizar o relacionamento entre as variáveis: Scatterplot
+# Nota-se que não existe um relacionamento claro entre as variáveis
+pairs(despesas[c('idade','bmi','filhos','gastos')])
+
+# Scatter plo Matrix
+install.packages('psych')
+library(psych)
+
+# Este gráfico fornece mais informações sobre o relacionamento entre as variáveis
+pairs.panels(despesas[c('idade','bmi','filhos','gastos')])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
