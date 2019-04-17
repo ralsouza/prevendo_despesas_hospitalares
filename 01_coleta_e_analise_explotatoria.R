@@ -1,7 +1,14 @@
 # Machine Learning - Regressão
 # Usar este script como ponto de partida
 
-# Work Directory
+#### ANÁLISE EXPLOTARÓRIA DE DADOS ####
+# Usada para compreender como os dados estão organizados, distribuidos, as correlações
+# entre as variáveis, etc.
+# Com este conhecimento, podemos tomar as decisões quais variáveis usaremos, ou se criaremos
+# várias versões do modelo para determinadas variáveis
+
+
+# Diretório de trabalho
 setwd('/Users/ls_rafael/Documents/GitHub/prevendo_despesas_hospitalares')
 
 ##### Problema de Negócio: Previsão de Despesas Hospitalares ####
