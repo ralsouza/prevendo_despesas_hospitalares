@@ -14,3 +14,6 @@ modelo <- lm(gastos ~ idade + filhos + bmi + sexo + fumante + regiao, data = des
 
 # Formato simplificado
 modelo <- lm(gastos ~ ., data = despesas)
+
+# Visalizando os coeficientes
+modelo

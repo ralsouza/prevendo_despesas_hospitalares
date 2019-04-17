@@ -18,6 +18,8 @@ setwd('/Users/ls_rafael/Documents/GitHub/prevendo_despesas_hospitalares')
 
 
 ##### PASSO 1 - Coletando os Dados ####
+# Neste ponto não será necessário dividir os dados de testes
+# No arquivo 03, os dados de testes serão carregados
 despesas <- read.csv('despesas.csv')
 View(despesas)
 
