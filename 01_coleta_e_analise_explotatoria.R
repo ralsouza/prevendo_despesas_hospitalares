@@ -1,4 +1,5 @@
 # Machine Learning - Regressão
+# Usar este script como ponto de partida
 
 # Work Directory
 setwd('/Users/ls_rafael/Documents/GitHub/prevendo_despesas_hospitalares')
@@ -55,6 +56,8 @@ cor(despesas[c('idade','bmi','filhos','gastos')])
 # Nota-se que não existe um relacionamento claro entre as variáveis
 pairs(despesas[c('idade','bmi','filhos','gastos')])
 
+pairs(despesas[ ,1:2])
+
 # Scatter plo Matrix
 install.packages('psych')
 library(psych)
@@ -62,6 +65,7 @@ library(psych)
 # Este gráfico fornece mais informações sobre o relacionamento entre as variáveis
 pairs.panels(despesas[c('idade','bmi','filhos','gastos')])
 
+pairs.panels(despesas[ ,1:2])
 
 
 
