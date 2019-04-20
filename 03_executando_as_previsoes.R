@@ -90,9 +90,12 @@ summary(modelo)
 # É a diferença entre o número de observações na amostra de treinamento 
 # e o número de variáveis no seu modelo
 
-# R-squared (coeficiente de determinação - R^2)
+# Multiple R-squared (coeficiente de determinação/explicação - R^2)
 # Ajuda a avaliar o nível de precisão do nosso modelo. 
 # Quanto maior, melhor, sendo 1 o valor ideal.
+# Interpretação: é o percentual da variação da variável alvo/variável dependente que é explicada
+# pela variação da variável preditora/variável independente. A diferença deste percentual por 100%, 
+# é relativo a outros fatores que não pela variável preditora/variável independente
 
 # F-statistics
 # É o teste F do modelo. Esse teste obtém os parâmetros do nosso modelo 
