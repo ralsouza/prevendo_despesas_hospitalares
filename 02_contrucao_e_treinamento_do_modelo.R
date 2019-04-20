@@ -4,6 +4,7 @@
 setwd('/Users/ls_rafael/Documents/GitHub/prevendo_despesas_hospitalares')
 
 #### PASSO 3 - TREINANDO O MODELO ####
+# A regressão fornece uma função que relaciona as variáveis
 ?lm
 #Sintaxe da regressão linear multipla
 # lm(var alvo ~ var preditora 1 + var preditora n ..., data = dataset)

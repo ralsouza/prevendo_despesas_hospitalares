@@ -45,6 +45,7 @@ table(despesas$regiao)
 str(despesas)
 
 # Matriz de Correlação
+# Correlação mede o grau de relação entre as variáveis
 # O Coeficiente de Correlação é um número que vai de -1 até 1 e o 0 indica que não existe correlação.
 # +1 indica uma forte correlação positiva
 # -1 indica uma forte correlação negativa

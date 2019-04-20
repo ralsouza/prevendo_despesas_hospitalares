@@ -29,6 +29,7 @@ summary(modelo)
 # ****************************************************
 
 # Equação de Regressão
+# A regressão fornece uma função que relaciona as variáveis
 # y = a + bx (simples)
 # y = a + b0x0 + b1x1 (múltipla)
 
@@ -39,7 +40,7 @@ summary(modelo)
 
 # Coeficiente - Intercept - a (alfa)
 # Valor de a na equação de regressão
-# É o ponto a reta de regressão corta o eixo y
+# É o ponto na reta de regressão corta o eixo y
 
 # Coeficientes - Nomes das variáveis - b (beta)
 # Valor de b na equação de regressão
