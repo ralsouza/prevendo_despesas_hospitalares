@@ -75,6 +75,20 @@ library(psych)
 # Este gráfico fornece mais informações sobre o relacionamento entre as variáveis
 pairs.panels(despesas[c('idade','bmi','filhos','gastos')])
 
+# Elipse de Correlação
+#   O círculo ovalado no gráfico de dispersão é chamado de elipse de correlação.
+#   Isso mostra um visual da força de correlação entre as variáveis.
+#   O ponto vermelho no centro da elipse de correlação, indica o ponto nos valores
+# médios das variáveis do eixo x e y.
+#   A elipse mais esticada indica uma forte correlação.
+# Quando há uma elipse perfeitamente arredondada, como o IMC e Filhos, isso indica uma correlação muito fraca
+pairs.panels(despesas[c('bmi','filhos')])
+
+pairs.panels(despesas[c('gastos','idade')])
+
+
+
+
 pairs.panels(despesas[ ,1:2])
 
 
