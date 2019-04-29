@@ -5,10 +5,10 @@
 <br/>
 Este pequeno projeto foi dedicado a fazer previsões de despesas hospitalares por meio de regressão e classificação. A ideia é entregar um projeto básico de Machine Learning do começo ao fim, este projeto foi codificado em R.
 
-Os algoritimos usados são:
-KNN
-SVM
-Random Forest
+Os algoritimos usados são:<br/>
+[KNN](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm);<br/>
+[SVM](https://en.wikipedia.org/wiki/Support-vector_machine);<br/>
+[Random Forest](https://en.wikipedia.org/wiki/Random_forest).<br/>
 
 # Objetivos do Projeto:
   **1.** Definição do problema de negócio;<br/>
